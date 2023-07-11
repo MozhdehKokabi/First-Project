@@ -7,29 +7,32 @@
 
 <body>
     <form>
-        <img src="images/mhmdreza.jpg" width=" 30%">
+        <img src="images/person.jpg" width=" 30%">
         <br>
-
-        <label>
-                         username
+        <label>              username
         </label>
         <input type="text" placeholder="Username">
         <br>
-
-        <label>
-                           password
+        <label>              password
         </label>
         <input type="password" placeholder="Password">
         <br>
-        <input type="checkbox"> Remember me
-        <button> login
-
+        <button> ARCAPTCHA
+            <head>
+                <title>ARCaptcha Demo</title>
+                <script src="https://widget.arcaptcha.ir/1/api.js" async defer></script>
+              </head>
+              <body>  
+                  <div class="arcaptcha" data-site-key="1pr8g5l057" ></div>
+                  <br />
+              </body>
         </button>
+
+        <input type="checkbox">                     Remember me
          <label>
             <p>
                 Forget <a href="#"> Password </a>
             </p>
-        
          </label>
     </form>
 </body>
